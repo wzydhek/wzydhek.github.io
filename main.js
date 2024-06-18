@@ -1111,7 +1111,6 @@
                     <option value="22">Armour Smithing</option>
                     <option value="11">Axes</option>
                     <option value="62">Baking</option>
-                    <option value="135">Ballistae</option>
                     <option value="63">Beverages</option>
                     <option value="59">Blacksmithing</option>
                     <option value="54">Blades Smithing</option>
@@ -1124,6 +1123,7 @@
                     <option value="77">Butchering</option>
                     <option value="73">Butchering Knife</option>
                     <option value="78">Carpentry</option>
+                    <option value="135">Cartography</option>
                     <option value="72">Carving Knife</option>
                     <option value="128">Catapults</option>
                     <option value="56">Chain Armour Smithing</option>
