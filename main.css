@@ -1,0 +1,161 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-size: 1.04em;
+}
+
+.app {
+    width: 100%;
+}
+
+:root {
+    --main-padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #444444;
+    margin-top: 0;
+    color: white;
+}
+
+.app-header {
+    padding-left: var(--main-padding);
+    margin-bottom: 7px;
+}
+
+.explain {
+    background-color: #AABBFF;
+    padding-left: var(--main-padding);
+    box-sizing: content-box;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+section {
+    width: 100%;
+}
+
+.section-header, .profile-header  {
+    font-size: 1.5em;
+    padding-left: var(--main-padding);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    background-color: #444444;
+    color: white;
+}
+.profile-settings {
+    margin-top: 13px;
+}
+
+.profile-header {
+    font-size: 1.1em !important;
+}
+
+.profile-body {
+    padding: var(--main-padding);
+    background-color: #D2D2D2;
+}
+
+.importExportSection {
+    margin-top: 20px;
+}
+
+.section-body {
+    padding: var(--main-padding);
+    background-color: #E8E8E8;
+}
+
+.skill-ok {
+    background-color: #BBFFBB;
+}
+
+.skill-error {
+    background-color: #FFBBBB;
+}
+
+.skill-result {
+    padding: 3px;
+}
+
+.meat-select {
+    width: 150px;
+    display: inline-block;
+}
+
+.ingredient-category {
+    background-color: #AADDAA;
+    margin-top: 6px;
+}
+
+.ingcat-header > h3 {
+    background-color: #66AA66;
+    display: inline-block;
+    min-width: 200px;
+    text-align: left;
+    margin: 0;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.ingcat-header {
+    background-color: #88BB88;
+}
+
+.ingcat-body {
+    padding: 3px;
+}
+
+.save-feedback {
+    display: inline-block;
+}
+
+.pizza-label {
+    min-width: 150px;
+    vertical-align: top;
+}
+
+.label-input {
+    margin-top: 7px;
+}
+
+.pizza-result {
+    background-color: #FFB;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.pizza-result > div {
+    display: inline-block;
+}
+
+.slider {
+    background-color: #AAC;
+    padding: 5px;
+}
+
+.slider-range > input {
+    min-width: 300px;
+}
+
+.pizza-player-table-container {
+    display: block;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.pizza-player-table {
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.pizza-player-table td, .pizza-player-table th {
+    border: 1px solid black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
